@@ -169,10 +169,9 @@ tr td{
     padding: 20px;
     margin: 20px;
     border-radius: 50%;
-    display: none;
 }
 
-.btn-top:scope{
+.btn-top:hover{
     background-color: white;
     color: #3FB9A4;
     border: 1px solid #3FB9A4;
