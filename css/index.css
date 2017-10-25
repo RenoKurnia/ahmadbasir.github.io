@@ -111,7 +111,7 @@ tr td{
     display: inline;
     border: none;
     padding:5px;
-    border-radius:10px;
+    border-radius:10ex;
     font-size: medium;
 }
 .get-start:hover{
@@ -160,4 +160,25 @@ tr td{
 
 .footer{
     padding-bottom: 20px;
+}
+
+.btn-top{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50%;
+    display: none;
+}
+
+.btn-top:scope{
+    background-color: white;
+    color: #3FB9A4;
+    border: 1px solid #3FB9A4;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
 }
